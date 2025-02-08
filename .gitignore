@@ -13,10 +13,11 @@ dist-ssr
 *.local
 study
 
-**/*.mp3
+*.mp3
 
 # Editor directories and files
 .vscode/*
+# ! 忽略.vscode/extensions.json
 !.vscode/extensions.json
 .idea
 .DS_Store
