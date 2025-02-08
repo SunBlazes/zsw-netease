@@ -1,4 +1,4 @@
-// import { NLayout } from "./components/NLayout"
+import { NLayout } from "./components/NLayout"
 import { Playerbar } from "./components/Playerbar"
 import { usePlayQueueStore } from "./store/playQueueStore"
 
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-      {/* <NLayout /> */}
+      <NLayout />
       {currIndex !== -1 && <Playerbar />}
     </div>
   )
